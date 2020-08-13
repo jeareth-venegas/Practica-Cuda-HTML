@@ -1,0 +1,39 @@
+/*Global*/
+
+body{
+    margin:0;
+    font-family: , helvetica, sans-serif;
+}
+
+.wrapper{
+
+}
+
+h1{
+    margin: 0 auto;
+}
+
+/*Helpers*/
+:active::after{
+    content:" ";
+    clear: both;
+    display:table;
+}
+
+/*bloque 1*/
+
+#bloque1{
+    background-color: #87509C;
+    height: 596px;
+}
+
+#logo{
+    width: 118px;
+    padding-left: 212px;
+    padding-top: 56px;
+}
+
+.menu ol{
+    padding-left: 0;
+    float: right;
+}
